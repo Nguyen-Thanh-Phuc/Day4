@@ -1,0 +1,80 @@
+/* Tổng thể */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tiêu đề trang */
+h1, h2, h3 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Bảng danh sách */
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Nút thao tác */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Form tạo/cập nhật */
+form input, form select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 6px 0;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+form label {
+    font-weight: 500;
+}
+
+form .btn {
+    margin-top: 10px;
+}
+
+/* Sidebar nếu có */
+.sidebar {
+    background-color: #343a40;
+    min-height: 100vh;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
